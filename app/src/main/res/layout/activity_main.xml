@@ -5,15 +5,43 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#222831"
     tools:context=".MainActivity">
 
+
     <TextView
+        android:id="@+id/TvNomeApp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Randomizador de imagem"
+        android:textSize="15sp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/TvImgRandom"
+        android:layout_width="400dp"
+        android:layout_height="350dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TvNomeApp"
+        />
+
+    <Button
+        android:id="@+id/BtnRandomizar"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Randomizar"
+        android:textSize="18sp"
+        android:textColor="#EEEEEE"
+        android:backgroundTint="#00ADB5"
+        app:layout_constraintBottom_toBottomOf="@+id/TvImgRandom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
