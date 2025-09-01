@@ -22,12 +22,12 @@
 
     <ImageView
         android:id="@+id/TvImgRandom"
-        android:layout_width="400dp"
-        android:layout_height="350dp"
+        android:layout_width="380dp"
+        android:layout_height="340dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/TvNomeApp"
+        app:layout_constraintTop_toTopOf="parent"
         />
 
     <Button
@@ -38,9 +38,11 @@
         android:textSize="18sp"
         android:textColor="#EEEEEE"
         android:backgroundTint="#00ADB5"
-        app:layout_constraintBottom_toBottomOf="@+id/TvImgRandom"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TvImgRandom" />
+
         />
 
 
