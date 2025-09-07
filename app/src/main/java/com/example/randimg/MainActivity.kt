@@ -44,7 +44,8 @@ class MainActivity : AppCompatActivity() {
             "https://picsum.photos/id/103/600/400",
             "https://picsum.photos/id/155/600/400",
             "https://picsum.photos/id/152/600/400",
-            "https://picsum.photos/id/155/600/400"
+            "https://picsum.photos/id/155/600/400",
+            "https://picsum.photos/id/160/600/400"
         )
 
         BtnRandomizar.setOnClickListener{
