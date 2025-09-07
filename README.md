@@ -5,7 +5,7 @@ O app foi desenvolvido em **Kotlin** utilizando a biblioteca **Glide** para carr
 
 ---
 
-## 🚀 Funcionalidades
+##  🚀 Funcionalidades
 - Exibição de imagens aleatórias a cada clique no botão **"Randomizar"**  
 - Carregamento de imagens direto da API [Picsum Photos](https://picsum.photos/)  
 - Exibição de **ProgressBar** enquanto a imagem está sendo carregada  
